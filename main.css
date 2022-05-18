@@ -214,3 +214,12 @@ footer a:hover {
       margin-bottom: 20px;
   }
 }
+
+@media (max-width: 430px) {
+    #artistgallerytxt {
+        font-size: 2rem;
+    }
+    .gallery-content .artist-name {
+        font-size: 2rem;
+    }
+}
