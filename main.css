@@ -7,7 +7,7 @@ body {
     position: relative;
 }
 .navbar {
-    width: 99%;
+    width: 98%;
     margin: 0 auto;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -50,7 +50,7 @@ body {
     color: rgb(230, 230, 230);
 }
 main {
-    width: 99%;
+    width: 98%;
     background: #edf2f4;
     margin: 0 auto;
     border-radius: 30px;
@@ -87,7 +87,7 @@ main #logo {
 .gallery-content .artist-name {
     margin: auto 0;
     font-family: "Orbitron", sans-serif;
-    font-size: 60px;
+    font-size: 3rem;
 }
 .gallery-img img {
     box-shadow: 7px 10px 8px grey;
@@ -108,4 +108,29 @@ main #logo {
     #artistgallerytxt {
         margin-top: 35px;
     }
+}
+@media (max-width: 767px) {
+    .hero-container {
+        margin-top: 75px;
+        margin-bottom: 135px;
+    }
+    .hero-container .title-name {
+        text-align: center;
+        border-right: none;
+        border-bottom: 6px solid #84a59d;
+        font-size: 3.5rem;
+        padding-bottom: 5px;
+    }
+    .hero-container .title-text {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .hero-container br {
+        display: none;
+    }
+    #artistgallerytxt {
+        letter-spacing: 5px;
+    }
+
 }
