@@ -223,3 +223,10 @@ footer a:hover {
         font-size: 2rem;
     }
 }
+
+.collapse-item {
+  transition: height 2s;
+}
+.collapse {
+  height: 0;
+}
