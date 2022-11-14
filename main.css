@@ -227,6 +227,7 @@ footer a:hover {
 .collapse-item {
   transition: height 2s;
 }
-.collapse {
-  height: 0;
+.collapse-p {
+  display: none;
+  overflow-x: hidden;
 }

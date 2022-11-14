@@ -3,6 +3,6 @@ const transparencyPolicyToggle = document.querySelector('#transparencypolicyfoot
 
 transparencyPolicyToggle.addEventListener('click', () => {
     collapseItems.forEach(element => {
-        element.classList.toggle('collapse');
+        element.classList.toggle('collapse-p');
     })
 })
