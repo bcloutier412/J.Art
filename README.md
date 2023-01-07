@@ -1,4 +1,4 @@
-# J.Art-resume-version
+# J.Art
 
 Designed and developed a homepage for a crypto art banner project, utilizing HTML, CSS, Javascript, and Bootstrap to increase marketing for their product/service to investors.
 
